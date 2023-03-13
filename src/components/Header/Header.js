@@ -1,23 +1,17 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import './style.css';
 
-function NavTabs() {
+function Header() {
   return (
-    <ul className="nav nav-tabs">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+       <Link className="navbar-brand" to="/">
+        Home
+      </Link>
+    <ul className="navbar-nav">
       <li className="nav-item">
         <NavLink
-          to="/"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Home
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="about"
+          to="/about"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
@@ -27,12 +21,12 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="blog"
+          to="ProjectGallery"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Blog
+          Project Gallery
         </NavLink>
       </li>
       <li className="nav-item">
@@ -46,18 +40,9 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item">
-        <NavLink
-          to="contact/learn"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Learn
-        </NavLink>
-      </li>
     </ul>
+    </nav>
   );
 }
 
-export default NavTabs;
+export default Header;

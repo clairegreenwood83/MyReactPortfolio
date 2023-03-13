@@ -1,0 +1,12 @@
+.hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+.hero h1 {
+    font-size: 6vw;
+
+}
+  
