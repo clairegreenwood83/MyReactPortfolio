@@ -5,6 +5,8 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import ProjectGallery from './components/pages/ProjectGallery';
 import Contact from './components/pages/Contact';
+import './App.css';
+
 
 function App() {
   return (
