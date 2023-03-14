@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.css";
-import background from "../../images/heart-flowers.jpg";
+//import background from "../../images/heart-flowers.jpg";
 
 
 
 function Hero(props) {
   return (
-    <div className="hero text-center" style={{ backgroundImage: `url(${background}) ` }}>
-      {props.children}
+   // <div className="hero text-center" style={{ backgroundImage: `url(${background}) ` }}>
+   <div className="hero text-center">
+   {props.children}
     </div>
   );
 }

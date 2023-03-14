@@ -1,14 +1,14 @@
 .hero {
-    height: 100vh;
+    height: 20vw;
     background-size: cover;
     background-position: center;
     position: relative;
-    background-image: ;
+    
   }
 
 .hero h1 {
     font-size: 6vw;
-    color: white;
+    color: black;
     text-align: center;
 }
 h1 {

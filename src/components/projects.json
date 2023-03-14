@@ -1,36 +1,48 @@
 [
     {
+      "id": 1,
       "title": "Project 1",
-      "github": "",
+      "imageName": "/images/project1.jpg",
+      "github": "https://github.com/clairegreenwood83/Professional-README-Generator",
       "deployed": "",
-      "description": ""
+      "description": "This project created a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package."
     },
     {
+        "id": 2,
         "title": "Project 2",
+        "imageName": "/images/project2.jpg",
         "github": "",
         "deployed": "",
-        "description": ""
+        "description": "xxxxx"
     },
     {
+        "id": 3,
         "title": "Project 3",
+        "imageName": "/images/project3.jpg",
         "github": "",
         "deployed": "",
-        "description": ""
+        "description": "xxxxxx"
     },
     {
+        "id": 4,
         "title": "Project 4",
+        "imageName": "/images/project4.jpg",
         "github": "",
         "deployed": "",
         "description": ""
     },
     {
+        "id": 5,
         "title": "Project 5",
-      "github": "",
-      "deployed": "",
-      "description": ""
+        "imageName": "/images/project5.jpg",
+        "github": "",
+        "deployed": "",
+        "description": ""
     },
     {
+        "id": 6,
         "title": "Project 6",
+        "imageName": "/images/project6.jpg",
         "github": "",
         "deployed": "",
         "description": ""
