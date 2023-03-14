@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "Project 1",
+      "title": "Dynamic README Generator",
       "imageName": "/images/project1.jpg",
       "github": "https://github.com/clairegreenwood83/Professional-README-Generator",
       "deployed": "",
@@ -9,19 +9,19 @@
     },
     {
         "id": 2,
-        "title": "Project 2",
-        "imageName": "/images/project2.jpg",
-        "github": "",
+        "title": "Object Oriented Programming, Team Profile Generator",
+        "imageName": "/images/project2.png",
+        "github": "https://github.com/clairegreenwood83/Object-Oriented-Programming-Team-Profile-Generator",
         "deployed": "",
-        "description": "xxxxx"
+        "description": "This project creates a working Node.js command-line application using information inputted about employees on a software engineering team."
     },
     {
         "id": 3,
-        "title": "Project 3",
+        "title": "Console Finances",
         "imageName": "/images/project3.jpg",
-        "github": "",
-        "deployed": "",
-        "description": "xxxxxx"
+        "github": "https://github.com/clairegreenwood83/Console-Finances",
+        "deployed": "https://github.com/clairegreenwood83/Console-Finances",
+        "description": "This project created JavaScript code to analyse the financial records of a company."
     },
     {
         "id": 4,

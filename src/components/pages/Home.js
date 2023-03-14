@@ -8,18 +8,19 @@ import Col from "react-bootstrap/Col";
 
 function Home() {
   return (
-      <div style={{backgroundColor: "pink", minHeight: "100%"}}>
-        <Container style={{ display: "flex", height: "100%", alignItems: "center", justifyContent: "center"}}>
-          <Row style={{width: "100%"}}> 
-            <Col style={{paddingTop: "25vh", textAlign: "center"}} >
+      <div >
+        
+          <Row style={{width: "100%", backgroundColor: "pink", minHeight: "100%"}}>
+            <Col style={{textAlign: "center", marginBottom: "10vh", marginTop: "8vh"}} >
               <h1 style={{fontSize: "10vh", fontFamily: "Lobster, cursive"}}>"Hi, I'm Claire</h1>
               <h1 style={{fontFamily: "Lobster, cursive"}}>designer & web developer"</h1>
             </Col>
-            <Col>
-              <img alt="headShot" src={require("../../images/Me-min.png")} style={{marginTop: "10vh", overflow: "none", objectFit: "cover", aspectRatio: "1/1", width: "80%", height: "auto"}}/>
+          </Row>
+          <Row style={{width: "100%"}}>
+            <Col style={{ textAlign: "center" }}>
+              <img alt="headShot" src={require("../../images/Me-min.png")} style={{marginTop: "2vh", overflow: "none", objectFit: "cover", aspectRatio: "1/1", width: "30vw", height: "auto"}}/>
             </Col>
           </Row>
-        </Container>
       </div>
   )
 }

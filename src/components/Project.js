@@ -1,8 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
-import Container from 'react-bootstrap/esm/Container';
-import Row from 'react-bootstrap/esm/Row';
-import Col from 'react-bootstrap/esm/Col';
+import { Card, Container, Row, Col} from 'react-bootstrap';
 
 function Project(props) {
 
@@ -13,7 +10,7 @@ function Project(props) {
         <Container>
             <Row>
                 <Col>
-                    <Card key={id} style={{ minWidth: '18rem', margin: '20px' }}>
+                    <Card key={id} style={{ minWidth: '20rem', margin: '20px'}}>
                     <Card.Img variant="top" alt="project image" src={process.env.PUBLIC_URL + image}  style={{width: "100%", height: "100%"}} />
                     <Card.Body>
                     <Card.Title>{title}</Card.Title>

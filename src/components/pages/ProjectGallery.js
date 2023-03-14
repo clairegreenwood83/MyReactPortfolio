@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/esm/Container";
+import { Container, Row, Col }from "react-bootstrap";
 import Project from "../Project";
 import projects from "../projects.json";
 
@@ -14,7 +14,10 @@ function ProjectGallery() {
     </div>*/
     <div>
       <Container>
+        <Row>
+          
       <h1 style={{marginTop: "5vh", marginBottom: "3vh"}}>My Projects</h1>
+      <Col>
       <Project
        id= {projects[0].id}
        title= {projects[0].title}
@@ -23,7 +26,9 @@ function ProjectGallery() {
        deployed= {projects[0].deployed}
        description= {projects[0].description}>
       </Project>
+      </Col>
 
+      <Col>
       <Project 
       title= {projects[1].title}
       image= {projects[1].imageName}
@@ -31,7 +36,8 @@ function ProjectGallery() {
       deployed= {projects[1].deployed}
       description = {projects[1].description}>
       </Project>
-
+      </Col>
+      <Col>
       <Project
        title= {projects[2].title}
        image= {projects[2].imageName}
@@ -39,7 +45,11 @@ function ProjectGallery() {
        deployed= {projects[2].deployed}
        description = {projects[2].description}>
       </Project>
-
+      </Col>
+      </Row>
+      
+      <Row>
+     <Col>
       <Project
        title= {projects[3].title}
        image= {projects[3].imageName}
@@ -47,7 +57,9 @@ function ProjectGallery() {
        deployed= {projects[3].deployed}
        description = {projects[3].description}>
        </Project>
+       </Col>
 
+       <Col>
       <Project
        title= {projects[4].title}
        image= {projects[4].imageName}
@@ -55,7 +67,9 @@ function ProjectGallery() {
        deployed= {projects[4].deployed}
        description = {projects[4].description}>
       </Project>
+      </Col>
 
+      <Col>
       <Project
        title= {projects[5].title}
        image= {projects[5].imageName}
@@ -63,7 +77,8 @@ function ProjectGallery() {
        deployed= {projects[5].deployed}
        description = {projects[5].description}>
        </Project>
-      
+       </Col>
+       </Row>
       </Container>
     </div>
   );
