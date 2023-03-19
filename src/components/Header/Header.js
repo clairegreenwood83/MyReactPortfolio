@@ -15,7 +15,7 @@ function Header() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          About
+          About Me
         </NavLink>
         </li>
         <li className="nav-item">
@@ -36,7 +36,7 @@ function Header() {
             isActive ? 'nav-link active' : 'nav-link'
           }
          >
-          Contact
+          Contact Me
         </NavLink>
         </li>
       </ul>

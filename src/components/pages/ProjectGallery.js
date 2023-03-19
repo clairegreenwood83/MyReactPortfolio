@@ -16,7 +16,7 @@ function ProjectGallery() {
       <Container>
         <Row>
           
-      <h1 style={{marginTop: "5vh", marginBottom: "3vh"}}>My Projects</h1>
+      <h1 style={{marginTop: "5vh", marginBottom: "3vh", fontFamily: "Open Sans, sans-serif", textAlign: "center"}}>My Projects</h1>
       <Col>
       <Project
        id= {projects[0].id}

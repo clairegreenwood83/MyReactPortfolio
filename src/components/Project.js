@@ -11,7 +11,7 @@ function Project(props) {
             <Row>
                 <Col>
                     <Card key={id} style={{ minWidth: '20rem', margin: '20px'}}>
-                    <Card.Img variant="top" alt="project image" src={process.env.PUBLIC_URL + image}  style={{width: "100%", height: "100%"}} />
+                    <Card.Img variant="top" alt="project image" src={process.env.PUBLIC_URL + image}  style={{width: "100%", maxHeight: "40vh"}} />
                     <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>{description}</Card.Text>

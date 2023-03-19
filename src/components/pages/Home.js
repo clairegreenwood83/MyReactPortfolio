@@ -10,15 +10,15 @@ function Home() {
   return (
       <div >
         
-          <Row style={{width: "100%", backgroundColor: "pink", minHeight: "100%"}}>
-            <Col style={{textAlign: "center", marginBottom: "10vh", marginTop: "8vh"}} >
-              <h1 style={{fontSize: "10vh", fontFamily: "Lobster, cursive"}}>"Hi, I'm Claire</h1>
-              <h1 style={{fontFamily: "Lobster, cursive"}}>designer & web developer"</h1>
+          <Row style={{width: "100%", backgroundColor: "pink", minHeight: "100%", marginLeft: "0vw", marginRight: "0vw"}}> 
+            <Col style={{textAlign: "center", marginTop: "30vh", color: "black"}} >
+              <h1 style={{fontSize: "6vh", fontWeight: "bolder",fontFamily: "Open Sans, sans-serif", letterSpacing: "0.1em"}}>CLAIRE GREENWOOD</h1>
+              <h2 style={{fontSize: "3vh", fontFamily: "Open Sans, sans-serif", marginTop: "5vh"}}>Web Developer & Designer </h2>
             </Col>
           </Row>
-          <Row style={{width: "100%"}}>
-            <Col style={{ textAlign: "center" }}>
-              <img alt="headShot" src={require("../../images/Me-min.png")} style={{marginTop: "2vh", overflow: "none", objectFit: "cover", aspectRatio: "1/1", width: "30vw", height: "auto"}}/>
+          <Row>
+            <Col>
+            
             </Col>
           </Row>
       </div>

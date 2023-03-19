@@ -5,7 +5,7 @@
       "imageName": "/images/project1.jpg",
       "github": "https://github.com/clairegreenwood83/Professional-README-Generator",
       "deployed": "",
-      "description": "This project created a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package."
+      "description": "This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package."
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "imageName": "/images/project2.png",
         "github": "https://github.com/clairegreenwood83/Object-Oriented-Programming-Team-Profile-Generator",
         "deployed": "",
-        "description": "This project creates a working Node.js command-line application using information inputted about employees on a software engineering team."
+        "description": "This a working Node.js command-line application using information inputted about employees on a software engineering team."
     },
     {
         "id": 3,
@@ -21,31 +21,31 @@
         "imageName": "/images/project3.jpg",
         "github": "https://github.com/clairegreenwood83/Console-Finances",
         "deployed": "https://github.com/clairegreenwood83/Console-Finances",
-        "description": "This project created JavaScript code to analyse the financial records of a company."
+        "description": "This project uses JavaScript code to analyse the financial records of a company."
     },
     {
         "id": 4,
-        "title": "Project 4",
+        "title": "Open Weather API",
         "imageName": "/images/project4.jpg",
-        "github": "",
-        "deployed": "",
-        "description": ""
+        "github": "https://github.com/clairegreenwood83/weather-dashboard-using_server-side_APIs",
+        "deployed": "https://clairegreenwood83.github.io/weather-dashboard-using_server-side_APIs/",
+        "description": "I built a weather dashboard, using Open Weather API, that features dynamically updated HTML and CSS to display a five day weather forecast."
     },
     {
         "id": 5,
-        "title": "Project 5",
+        "title": "Password Generator",
         "imageName": "/images/project5.jpg",
-        "github": "",
-        "deployed": "",
-        "description": ""
+        "github": "https://github.com/clairegreenwood83/password-generator",
+        "deployed": "https://clairegreenwood83.github.io/password-generator/",
+        "description": "This application allows users to generate a random password based on user selected criteria."
     },
     {
         "id": 6,
-        "title": "Project 6",
-        "imageName": "/images/project6.jpg",
-        "github": "",
-        "deployed": "",
-        "description": ""
+        "title": "Solve My Boredom",
+        "imageName": "/images/project6.png",
+        "github": "https://github.com/heyilll/js-solvemyboredom",
+        "deployed": "https://heyilll.github.io/js-solvemyboredom/",
+        "description": "This is an interactive frontend web application for discovering something to do and how to do it. Boredom is a common dilema, that most adults and children experience regularly. This web application will allow users to solve their boredom by using the cleverly designed search engine, which utilises 3 APIs, to find activity ideas. They will then be able to use the YouTube videos and AI responses displayed to help them learn a new skill, have fun and potentially meet new people along the way."
     }
 ]
       

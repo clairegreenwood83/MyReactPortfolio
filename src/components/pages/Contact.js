@@ -9,7 +9,7 @@ function Contact(props) {
   return (
     <Container>
       <Row>
-        <Col style={{marginTop: "5vh", marginBottom: "3vh"}}>
+        <Col style={{marginTop: "5vh", marginBottom: "3vh", fontFamily: "Open Sans, sans-serif", textAlign: "center"}}>
       <h1>Contact Me</h1>
         </Col>
       </Row>
